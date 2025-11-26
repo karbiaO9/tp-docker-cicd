@@ -31,7 +31,7 @@ app.use(
 // ROUTE API PRINCIPALE
 app.get("/api", (req, res) => {
   res.json({
-    message: "Hello from Backend!",
+    message: "Hello from Backend TEST!",
     timestamp: new Date().toISOString(),
     client: req.get("Origin") || "unknown",
     success: true,
